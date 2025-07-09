@@ -29,46 +29,46 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
+  { value: 3, suffix: "+", label: "Years of Experience" },
   { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 15, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/asIndia.jpeg",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/cncm.jpeg",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/hiper.jpeg",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/wisdom.jpg",
   },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
+  // {
+  //   imgPath: "/images/logos/company-logo-5.png",
+  // },
+  // {
+  //   imgPath: "/images/logos/company-logo-6.png",
+  // },
+  // {
+  //   imgPath: "/images/logos/company-logo-7.png",
+  // },
+  // {
+  //   imgPath: "/images/logos/company-logo-8.png",
+  // },
+  // {
+  //   imgPath: "/images/logos/company-logo-9.png",
+  // },
+  // {
+  //   imgPath: "/images/logos/company-logo-10.png",
+  // },
+  // {
+  //   imgPath: "/images/logos/company-logo-11.png",
+  // },
 ];
 
 const abilities = [
@@ -94,10 +94,10 @@ const techStackImgs = [
     name: "React Developer",
     imgPath: "/images/logos/react.png",
   },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
+  // {
+  //   name: "Python Developer",
+  //   imgPath: "/images/logos/python.svg",
+  // },
   {
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
@@ -114,17 +114,17 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "Frontend Developer",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Python Developer",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: 0.8,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -147,7 +147,8 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
@@ -159,7 +160,8 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
@@ -171,7 +173,8 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
@@ -246,20 +249,14 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
     name: "x",
     imgPath: "/images/x.png",
+    url: "https://x.com/SaniyaFarzin",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/saniya-farzin/",
   },
 ];
 

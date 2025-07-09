@@ -1,7 +1,8 @@
 import AnimatedCounter from "../components/AnimatedCounter";
 import { Button } from "../components/Button";
-import HeroExperience from "../components/HeroModels/HeroExperience";
+import HeroExperience from '../components/Models/HeroModels/HeroExperience'
 import { words } from "../constants";
+
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -24,7 +25,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Turning
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -48,8 +49,10 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Saniya Farzin, a Frontend-heavy Full Stack Dev.
+              Hi, I’m Saniya Farzin, a Frontend-focused Full Stack Developer
+            
             </p>
+            <p className="text-white md:text-m relative z-10 pointer-events-none">Reach out to me: saniyafarzin75@gmail.com</p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
               id="button"
