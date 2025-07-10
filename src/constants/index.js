@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Resume",
+    link: "http://bit.ly/4iVdRDB",
   },
 ];
 
@@ -149,27 +149,28 @@ const expCards = [
   {
     review:
       "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    imgPath: "/images/logos/wisdom.jpg",
+    logoPath: "/images/logos/wisdom.jpg",
+    title: "FullStack Developer (Remote)",
+    date: "December 2024 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+       "Developed an internal LMS and attendance tracker that made course content easier to access and helped cut down repetitive tasks by 70%",
+      "Built a student management system to handle student records, course mapping, and results, helping streamline admin tasks and reduce manual work by 68%",
+      "Created the company’s main website from the ground up with a responsive layout and smooth navigation.",
+     
     ],
   },
+  
   {
     review:
       "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    imgPath: "/images/logos/hiper.jpeg",
+    logoPath: "/images/logos/hiper.jpeg",
+    title: "Front-end Engineer (Remote)",
+    date: "October 2023 - November 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Managed HiPER’s frontend team, overseeing daily operations,mentoring interns, and improving project workflows—boosting team productivity and delivery by 40%.",
+      "Built internal tools, including a Project Management System for task tracking, a Stock Dashboardfor inventory and cost insights, and a Customer Dashboard  to provide savings data for each vehicle.",
     ],
   },
   {

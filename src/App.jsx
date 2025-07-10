@@ -14,7 +14,6 @@ const App = () => {
       <Navbar />
       <Hero />
       <Showcase />
-      <LogoShowcase />
       <FeatureCards />
       <ExperienceSection />
       <TechStack />

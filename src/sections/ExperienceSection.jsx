@@ -36,10 +36,7 @@ const Experience = () => {
       });
     });
 
-    // Animate the timeline height as the user scrolls
-    // from the top of the timeline to 70% down the screen
-    // The timeline height should scale down from 1 to 0
-    // as the user scrolls up the screen
+    
     gsap.to(".timeline", {
       // Set the origin of the animation to the bottom of the timeline
       transformOrigin: "bottom bottom",
