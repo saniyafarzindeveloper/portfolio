@@ -30,7 +30,7 @@ const TechStack = () => {
   return (
     <div className="flex-center section-padding" id="skills">
       <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader title="Tech Stack" sub="What I bring to the table" />
+        <TitleHeader title="Tech Stack" sub="My Core Strengths" />
         <div className="tech-grid">
           {techStackIcons.map((icon) => (
             <div

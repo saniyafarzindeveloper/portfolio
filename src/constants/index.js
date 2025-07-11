@@ -119,12 +119,12 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-  // {
-  //   name: "Python Developer",
-  //   modelPath: "/models/python-transformed.glb",
-  //   scale: 0.8,
-  //   rotation: [0, 0, 0],
-  // },
+  {
+    name: "Devops",
+    modelPath: "/models/aws_brand_smile.glb",
+    scale: 0.2,
+    rotation: [1,3,0],
+  },
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -145,45 +145,89 @@ const techStackIcons = [
   },
 ];
 
+// const expCards = [
+//   {
+//     review:
+//       "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+//     companyName: "Wisdom Education",
+//     logoPath: "/images/logos/wisdom.jpg",
+//     title: "FullStack Developer (Remote)",
+//     date: "December 2024 - Present",
+//     responsibilities: [
+//        "Developed an internal LMS and attendance tracker that made course content easier to access and helped cut down repetitive tasks by 70%",
+//       "Built a student management system to handle student records, course mapping, and results, helping streamline admin tasks and reduce manual work by 68%",
+//       "Created the company’s main website from the ground up with a responsive layout and smooth navigation.",
+
+//     ],
+//   },
+
+//   {
+//     review:
+//       "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+//     companyName: "HiPER Automotive",
+//     logoPath: "/images/logos/hiper.jpeg",
+//     title: "Front-end Engineer (Remote)",
+//     date: "October 2023 - November 2024",
+//     responsibilities: [
+//       "Managed HiPER’s frontend team, overseeing daily operations,mentoring interns, and improving project workflows—boosting team productivity and delivery by 40%.",
+//       "Built internal tools, including a Project Management System for task tracking, a Stock Dashboardfor inventory and cost insights, and a Customer Dashboard  to provide savings data for each vehicle.",
+//     ],
+//   },
+//   {
+//     review:
+//       "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+//     companyName: "Cloud Native Compliance Maven, LLC ",
+//     logoPath: "/images/logos/cncm.jpeg",
+//     title: "Front-end Developer (Remote)",
+//     date: "January 2022 - September 2023",
+//     responsibilities: [
+//       "Collaborated with a team of five developers to implement responsive design and cross-browser compatibility, increasing mobile and tablet user engagement by 30%.",
+//       "Developed and optimized two web applications using ReactJS, MUI, and Bootstrap, ensuring high performance, maintainability, and seamless user experience across devices.",
+//       "Integrated Google Analytics to track user interactions, leveraging data insights to improve UI/UX, reduce bounce rate by 25%, and boost conversions by 12%.",
+//     ],
+//   },
+// ];
+
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/logos/wisdom.jpg",
+      "Saniya understood what we needed without much hand-holding. She built tools that just worked: smooth, practical. You could tell she cared about making things better, not just writing code..",
+    companyName: "Wisdom Education",
     logoPath: "/images/logos/wisdom.jpg",
     title: "FullStack Developer (Remote)",
     date: "December 2024 - Present",
+    techStack:"NextJS, Figma, MERN, AWS",
     responsibilities: [
-       "Developed an internal LMS and attendance tracker that made course content easier to access and helped cut down repetitive tasks by 70%",
-      "Built a student management system to handle student records, course mapping, and results, helping streamline admin tasks and reduce manual work by 68%",
-      "Created the company’s main website from the ground up with a responsive layout and smooth navigation.",
-     
+      "Developed an internal LMS and attendance tracker to simplify course access and reduce repetitive tasks by 70%.",
+      "Built a student management system to handle records, course mapping, and results — cutting manual admin work by 68%.",
+      "Created the company website from scratch with a responsive layout and smooth navigation.",
     ],
   },
-  
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/logos/hiper.jpeg",
+      "We could rely on Saniya to handle things end to end. She took initiative, kept the team aligned, and built internal dashboards that made our workflows way more efficient. It honestly felt like she was a core part of the team from day one.",
+    companyName: "HiPER Automotive",
     logoPath: "/images/logos/hiper.jpeg",
     title: "Front-end Engineer (Remote)",
     date: "October 2023 - November 2024",
+    techStack:"ReactJS, MUI, TailwindCSS, Figma, AWS, Docker ",
     responsibilities: [
-      "Managed HiPER’s frontend team, overseeing daily operations,mentoring interns, and improving project workflows—boosting team productivity and delivery by 40%.",
-      "Built internal tools, including a Project Management System for task tracking, a Stock Dashboardfor inventory and cost insights, and a Customer Dashboard  to provide savings data for each vehicle.",
+      "Led HiPER’s frontend team — managed operations, mentored interns, and improved workflows, boosting delivery by 40%.",
+      "Built internal tools: a Project Management System for task tracking, a Stock Dashboard for inventory insights, and a Customer Dashboard to show per-vehicle savings.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "Saniya paid attention to the little things. The UI felt cleaner, mobile users stayed longer, and we finally had proper data to back our product decisions. She didn’t overcomplicate things, just quietly improved everything she touched.",
+    companyName: "Cloud Native Compliance Maven, LLC",
+    logoPath: "/images/logos/cncm.jpeg",
+    title: "Front-end Developer (Remote)",
+    date: "January 2022 - September 2023",
+    techStack:"ReactJS, MUI, Google Analytics",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Collaborated with a team of five to implement responsive design and cross-browser support — increasing mobile engagement by 30%.",
+      "Developed and optimized two web apps with a focus on performance, maintainability, and consistent UX.",
+      "Integrated Google Analytics to track user behavior — helped reduce bounce rate by 25% and improve conversions by 12%.",
     ],
   },
 ];
