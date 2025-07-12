@@ -119,12 +119,7 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Devops",
-    modelPath: "/models/aws_brand_smile.glb",
-    scale: 0.2,
-    rotation: [1,3,0],
-  },
+  
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -142,6 +137,12 @@ const techStackIcons = [
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "Devops",
+    modelPath: "/models/aws_brand_smile.glb",
+    scale: 0.2,
+    rotation: [ -Math.PI / 8, 0, 0 ],
   },
 ];
 
