@@ -48,27 +48,7 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/wisdom.jpg",
   },
-  // {
-  //   imgPath: "/images/logos/company-logo-5.png",
-  // },
-  // {
-  //   imgPath: "/images/logos/company-logo-6.png",
-  // },
-  // {
-  //   imgPath: "/images/logos/company-logo-7.png",
-  // },
-  // {
-  //   imgPath: "/images/logos/company-logo-8.png",
-  // },
-  // {
-  //   imgPath: "/images/logos/company-logo-9.png",
-  // },
-  // {
-  //   imgPath: "/images/logos/company-logo-10.png",
-  // },
-  // {
-  //   imgPath: "/images/logos/company-logo-11.png",
-  // },
+  
 ];
 
 const abilities = [
@@ -94,10 +74,6 @@ const techStackImgs = [
     name: "React Developer",
     imgPath: "/images/logos/react.png",
   },
-  // {
-  //   name: "Python Developer",
-  //   imgPath: "/images/logos/python.svg",
-  // },
   {
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
@@ -146,48 +122,6 @@ const techStackIcons = [
   },
 ];
 
-// const expCards = [
-//   {
-//     review:
-//       "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-//     companyName: "Wisdom Education",
-//     logoPath: "/images/logos/wisdom.jpg",
-//     title: "FullStack Developer (Remote)",
-//     date: "December 2024 - Present",
-//     responsibilities: [
-//        "Developed an internal LMS and attendance tracker that made course content easier to access and helped cut down repetitive tasks by 70%",
-//       "Built a student management system to handle student records, course mapping, and results, helping streamline admin tasks and reduce manual work by 68%",
-//       "Created the company’s main website from the ground up with a responsive layout and smooth navigation.",
-
-//     ],
-//   },
-
-//   {
-//     review:
-//       "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-//     companyName: "HiPER Automotive",
-//     logoPath: "/images/logos/hiper.jpeg",
-//     title: "Front-end Engineer (Remote)",
-//     date: "October 2023 - November 2024",
-//     responsibilities: [
-//       "Managed HiPER’s frontend team, overseeing daily operations,mentoring interns, and improving project workflows—boosting team productivity and delivery by 40%.",
-//       "Built internal tools, including a Project Management System for task tracking, a Stock Dashboardfor inventory and cost insights, and a Customer Dashboard  to provide savings data for each vehicle.",
-//     ],
-//   },
-//   {
-//     review:
-//       "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-//     companyName: "Cloud Native Compliance Maven, LLC ",
-//     logoPath: "/images/logos/cncm.jpeg",
-//     title: "Front-end Developer (Remote)",
-//     date: "January 2022 - September 2023",
-//     responsibilities: [
-//       "Collaborated with a team of five developers to implement responsive design and cross-browser compatibility, increasing mobile and tablet user engagement by 30%.",
-//       "Developed and optimized two web applications using ReactJS, MUI, and Bootstrap, ensuring high performance, maintainability, and seamless user experience across devices.",
-//       "Integrated Google Analytics to track user interactions, leveraging data insights to improve UI/UX, reduce bounce rate by 25%, and boost conversions by 12%.",
-//     ],
-//   },
-// ];
 
 const expCards = [
   {
