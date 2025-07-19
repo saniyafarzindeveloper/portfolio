@@ -10,11 +10,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Experience = () => {
   useGSAP(() => {
-    // Loop through each timeline card and animate them in
-    // as the user scrolls to each card
+   
     gsap.utils.toArray(".timeline-card").forEach((card) => {
-      // Animate the card coming in from the left
-      // and fade in
+      
       gsap.from(card, {
         // Move the card in from the left
         xPercent: -100,
@@ -50,8 +48,7 @@ const Experience = () => {
         end: "70% center",
         // Update the animation as the user scrolls
         onUpdate: (self) => {
-          // Scale the timeline height as the user scrolls
-          // from 1 to 0 as the user scrolls up the screen
+        
           gsap.to(".timeline", {
             scaleY: 1 - self.progress,
           });
@@ -59,17 +56,13 @@ const Experience = () => {
       },
     });
 
-    // Loop through each expText element and animate them in
-    // as the user scrolls to each text element
+   
     gsap.utils.toArray(".expText").forEach((text) => {
-      // Animate the text opacity from 0 to 1
-      // and move it from the left to its final position
-      // over 1 second with a power2 ease-in-out curve
+      
       gsap.from(text, {
         // Set the opacity of the text to 0
         opacity: 0,
-        // Move the text from the left to its final position
-        // (xPercent: 0 means the text is at its final position)
+      
         xPercent: 0,
         // Animate over 1 second
         duration: 1,
