@@ -15,6 +15,10 @@ const navLinks = [
     name: "Resume",
     link: "http://bit.ly/4iVdRDB",
   },
+  {
+    name: "GitHub",
+    link: "https://github.com/saniyafarzindeveloper",
+  },
 ];
 
 const words = [
